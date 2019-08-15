@@ -12,42 +12,7 @@ import org.testng.annotations.*;
 
 import java.util.*;
 
-public class ApiTest{
-
-    public static final String BASE_URI= "http://api.apixu.com";
-    public static final String BASE_PATH= "/v1";
-    public static final String SEARCH_ENDPOINT= "/search.json";
-    public static final String CURRENT_TEMP_ENDPOINT= "/current.json";
-    public static final String FORECAST_ENDPOINT= "/forecast.json";
-    private static final String KEY = "68397af818104cd8afc131820191208";
-    public Response response;
-    public List<Double> heatIndexList = new ArrayList<Double>();
-    public List<Double> avgtempList_c = new ArrayList<Double>();
-    int temperature_c;
-    int humidity;
-    double index_c;
-    double standardDeviation;
-
-
-    @BeforeClass
-    public static void init(){
-        RestAssured.baseURI=BASE_URI;
-        RestAssured.basePath=BASE_PATH;
-
-    }
-
-    @BeforeMethod
-    public void beforeMethod() {
-        response = null;
-    }
-
-    @DataProvider(name="City")
-    public Object[][] data(){
-        return new Object[][]{
-                {"delhi"},
-                {"chennai"}
-        };
-    }
+public class ApiTest extends Base{
 
     /* 1. Calculate and sort in ascending order w.r.t Heat Index of Delhi and Chennai using given formula.
        Display the result in console or save in a file.

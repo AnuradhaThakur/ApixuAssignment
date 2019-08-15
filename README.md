@@ -1,14 +1,15 @@
 # API Automation Assignment
 
-# 
+# AP1 1:- http://api.apixu.com/v1/current.json
 Calculate and sort in ascending order w.r.t Heat Index of Delhi and Chennai.
 Display the result in console or save in a file
 (Given : Air temperature (T) and a relative humidity (rh) Heat Index Formula
-# 
+
+# API 2:- http://api.apixu.com/v1/forecast.json
 Calculate the Standard Deviation in temperature of Bengaluru for upcoming week 
 starting from tomorrow(w.r.t the date to receiving assignment). And display the result in console/ file.
 
-# 
+# API 3:- http://api.apixu.com/v1/search.json
 Navigate to https://www.apixu.com/api-explorer.aspx, and get suggestions for keyword 
 “Delhi”. From the results, select any(randomly) and get climate details for that suggestion(listed from previous list)
 
