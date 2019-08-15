@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="ApiTest" duration-ms="3498" started-at="2019-08-15T06:32:01Z" finished-at="2019-08-15T06:32:05Z">
+  <suite name="ApiTest" duration-ms="3543" started-at="2019-08-15T08:01:08Z" finished-at="2019-08-15T08:01:11Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="3498" started-at="2019-08-15T06:32:01Z" finished-at="2019-08-15T06:32:05Z">
+    <test name="Command line test" duration-ms="3543" started-at="2019-08-15T08:01:08Z" finished-at="2019-08-15T08:01:11Z">
       <class name="ApiTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:ApiTest@3d8c7aca]" name="init" is-config="true" duration-ms="218" started-at="2019-08-15T06:32:01Z" finished-at="2019-08-15T06:32:01Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ApiTest@1554909b]" name="init" is-config="true" duration-ms="221" started-at="2019-08-15T08:01:08Z" finished-at="2019-08-15T08:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="getCurrentTemp(java.lang.String)[pri:1, instance:ApiTest@3d8c7aca]" name="getCurrentTemp" duration-ms="1529" started-at="2019-08-15T06:32:01Z" description="Get the current temparature details of a city" data-provider="City" finished-at="2019-08-15T06:32:03Z">
+        <test-method status="PASS" signature="getCurrentTemp(java.lang.String)[pri:1, instance:ApiTest@1554909b]" name="getCurrentTemp" duration-ms="1597" started-at="2019-08-15T08:01:08Z" description="Get the current temparature details of a city" data-provider="City" finished-at="2019-08-15T08:01:10Z">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentTemp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T06:32:01Z" finished-at="2019-08-15T06:32:01Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:08Z" finished-at="2019-08-15T08:01:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getCurrentTemp(java.lang.String)[pri:1, instance:ApiTest@3d8c7aca]" name="getCurrentTemp" duration-ms="414" started-at="2019-08-15T06:32:03Z" description="Get the current temparature details of a city" data-provider="City" finished-at="2019-08-15T06:32:03Z">
+        <test-method status="PASS" signature="getCurrentTemp(java.lang.String)[pri:1, instance:ApiTest@1554909b]" name="getCurrentTemp" duration-ms="360" started-at="2019-08-15T08:01:10Z" description="Get the current temparature details of a city" data-provider="City" finished-at="2019-08-15T08:01:10Z">
           <params>
             <param index="0">
               <value>
@@ -37,42 +37,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCurrentTemp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T06:32:03Z" finished-at="2019-08-15T06:32:03Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:10Z" finished-at="2019-08-15T08:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-08-15T06:32:03Z" finished-at="2019-08-15T06:32:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T06:32:03Z" finished-at="2019-08-15T06:32:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getMaxHeatIndex()[pri:1, instance:ApiTest@3d8c7aca]" name="getMaxHeatIndex" duration-ms="0" started-at="2019-08-15T06:32:03Z" depends-on-methods="ApiTest.getCurrentTemp" finished-at="2019-08-15T06:32:03Z">
+        <test-method status="PASS" signature="getMaxHeatIndex()[pri:1, instance:ApiTest@1554909b]" name="getMaxHeatIndex" duration-ms="0" started-at="2019-08-15T08:01:10Z" depends-on-methods="ApiTest.getCurrentTemp" finished-at="2019-08-15T08:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMaxHeatIndex -->
-        <test-method status="PASS" signature="getWeatherForecast()[pri:2, instance:ApiTest@3d8c7aca]" name="getWeatherForecast" duration-ms="591" started-at="2019-08-15T06:32:03Z" description="Get the weather forecast for Bengaluru for next 10 days" finished-at="2019-08-15T06:32:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:10Z" finished-at="2019-08-15T08:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getWeatherForecast()[pri:2, instance:ApiTest@1554909b]" name="getWeatherForecast" duration-ms="492" started-at="2019-08-15T08:01:10Z" description="Get the weather forecast for Bengaluru for next 10 days" finished-at="2019-08-15T08:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getWeatherForecast -->
-        <test-method status="PASS" signature="getSuggestion()[pri:3, instance:ApiTest@3d8c7aca]" name="getSuggestion" duration-ms="731" started-at="2019-08-15T06:32:04Z" description="get suggestions for keyword Delhi and get climate details for any random suggestion from the list" finished-at="2019-08-15T06:32:05Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:10Z" finished-at="2019-08-15T08:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:10Z" finished-at="2019-08-15T08:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getSuggestion()[pri:3, instance:ApiTest@1554909b]" name="getSuggestion" duration-ms="859" started-at="2019-08-15T08:01:10Z" description="get suggestions for keyword Delhi and get climate details for any random suggestion from the list" finished-at="2019-08-15T08:01:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSuggestion -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T06:32:04Z" finished-at="2019-08-15T06:32:04Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@1554909b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T08:01:10Z" finished-at="2019-08-15T08:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="calculateSD()[pri:2, instance:ApiTest@3d8c7aca]" name="calculateSD" duration-ms="0" started-at="2019-08-15T06:32:04Z" description="Calculate Standard Deviation for forcasted weather" depends-on-methods="ApiTest.getWeatherForecast" finished-at="2019-08-15T06:32:04Z">
+        <test-method status="PASS" signature="calculateSD()[pri:2, instance:ApiTest@1554909b]" name="calculateSD" duration-ms="0" started-at="2019-08-15T08:01:10Z" description="Calculate Standard Deviation for forcasted weather" depends-on-methods="ApiTest.getWeatherForecast" finished-at="2019-08-15T08:01:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- calculateSD -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:ApiTest@3d8c7aca]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-15T06:32:04Z" finished-at="2019-08-15T06:32:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
       </class> <!-- ApiTest -->
     </test> <!-- Command line test -->
   </suite> <!-- ApiTest -->
