@@ -1,7 +1,6 @@
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.hamcrest.generator.qdox.junit.APITestCase;
 import org.testng.annotations.*;
 
 import java.util.ArrayList;
